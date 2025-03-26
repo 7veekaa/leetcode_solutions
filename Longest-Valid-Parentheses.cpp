@@ -7,6 +7,9 @@ class Solution {
     /*logic: vector me ( aaye to push back krdo
     ) aaye toh bhi push, sol increment krdo
     window aage badhate jao */
+    //ye toh boht optimal nhi hua
+    //two pass scan is okay
+    //stack is also ok but unnecessary, FOR ME:)
     
 public:
     int longestValidParentheses(string s) {
